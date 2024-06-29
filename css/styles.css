@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.form{
+    background-color: #f2f2f2;
+    border-radius: 16px;
+    margin: 10%;
+    padding: 3%;
+
+    & p{
+        padding:0.5% 1%;
+    }
+
+    & input {
+        background-color: #fff;
+        border: rgb(0, 111, 190) 1px solid;
+        border-radius: 5px;
+        height: auto;
+        margin: 0;
+        width: 100%;
+    }
+
+    & input:invalid {
+        border: 1px dashed red;
+      }
+
+    & input:valid {
+        border: 1px solid rgb(0, 137, 48);
+      }
+
+    & input[type=submit] {
+        background-color: rgb(0, 111, 190);
+        color: #fff;
+        padding: 1%;
+        width: 30%;
+    }
+
+    & input[type=radio], input[type=checkbox] {
+        background-color: rgb(0, 111, 190);
+        width: auto;
+    }
+
+    & fieldset{
+        border: rgb(0, 111, 190) 1px solid;
+        padding: 3%;
+        border-radius: 5px;
+    }
+
+    & textarea{
+        border: rgb(0, 111, 190) 1px solid;
+        border-radius: 10px;
+        vertical-align: top;
+    }
+    & .numero{
+        color: rgb(0, 111, 190);
+        font-size: 2rem;
+    }
+
+
+}
