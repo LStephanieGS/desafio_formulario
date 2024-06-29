@@ -8,10 +8,9 @@ body{
     font-family: "Inter", sans-serif;
 }
 .form{
-    background-color: #f2f2f2;
+    background-color: #fff;
     border-radius: 16px;
-    margin: 10%;
-    padding: 3%;
+    padding: 5%;
 
     & p{
         padding:0.5% 1%;
@@ -22,12 +21,13 @@ body{
         border: rgb(0, 111, 190) 1px solid;
         border-radius: 5px;
         height: auto;
+        padding: 1%;
         margin: 0;
         width: 100%;
     }
 
     & input:invalid {
-        border: 1px dashed red;
+        border: 1px solid red;
       }
 
     & input:valid {
@@ -35,8 +35,16 @@ body{
       }
 
     & input[type=submit] {
-        background-color: rgb(0, 111, 190);
+        background-color: #5D5FEF;
+        border: #5D5FEF 1px solid;
         color: #fff;
+        padding: 1%;
+        width: 30%;
+    }
+    & .cancel{
+        background-color: #fff;
+        border: #5D5FEF 1px solid;
+        color: #5D5FEF;
         padding: 1%;
         width: 30%;
     }
@@ -44,6 +52,8 @@ body{
     & input[type=radio], input[type=checkbox] {
         background-color: rgb(0, 111, 190);
         width: auto;
+        accent-color: #5D5FEF;
+        
     }
 
     & fieldset{

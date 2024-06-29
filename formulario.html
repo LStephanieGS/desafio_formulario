@@ -3,36 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Ejercicio | Formulario </title>
 </head>
 <body>
-    <p>
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" tabindex="1" placeholder="Ingresa tu nombre" required>
-    </p>
-    <p>
-        <label for="email">Email:</label>
-        <input type="email" id="email" tabindex="2" placeholder="Ingresa tu nombre" required>
-    </p>
-    <p>
-        <label for="pasword">Contraseña</label>
-        <input type="text" id="name" tabindex="3" placeholder="Ingresa tu nombre" required>
-    </p>
-</p>
-<label for="intereses">Intereses</label>
-<p>
-    <input type="checkbox" name="desarrollo" id="desarrollo">
-    <label for="desarrollo">Desarrollo</label>
-</p>
-<p>
-    <input type="checkbox" name="diseno" id="diseno">
-    <label for="diseno">Diseño</label>
-</p>
-<p>
-    <input type="checkbox" name="negocio" id="negocio">
-    <label for="negocio">Negocio</label>
-</p>
-    
-    
+    <div class="form">
+        <form action="">
+            <p>
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" tabindex="1" placeholder="Ingrese su nombre completo" required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" tabindex="2" placeholder="Ej: username@correo.co" required>
+            </p>
+        <label for="intereses">¿Qué curso estás tomando en Cymetria?</label>
+        <p>
+            <input type="radio" name="curso" id="sql_server">
+            <label for="sql_server">SQL- SERVER</label>
+        </p>
+        <p>
+            <input type="radio" name="curso" id="frontend">
+            <label for="frontend">Frontend</label>
+        </p>
+        <p>
+            <input type="radio" name="curso" id="fullstack">
+            <label for="fullstack">FullStack</label>
+        </p>
+        <label for="intereses">¿Cuales lenguajes de programación te gustaría seguir aprendiendo?</label>
+        <p>
+            <input type="checkbox" name="sql_server" id="sql_server">
+            <label for="sql_server">Python</label>
+        </p>
+        <p>
+            <input type="checkbox" name="frontend" id="frontend">
+            <label for="frontend">JavaScript</label>
+        </p>
+        <p>
+            <input type="checkbox" name="fullstack" id="fullstack">
+            <label for="fullstack">.Net</label>
+        </p>
+        <p>
+            <input type="checkbox" name="fullstack" id="fullstack">
+            <label for="fullstack">Java</label>
+        </p>
+        <p>
+            <input type="checkbox" name="fullstack" id="fullstack">
+            <label for="fullstack">NodeJs</label>
+        </p>
+        <p>
+            <input type="checkbox" name="fullstack" id="fullstack">
+            <label for="fullstack">PHP</label>
+        </p>
+        <p>
+        <input type="submit" value="Cancelar" tabindex="7"/>
+        <input type="submit" value="Enviar" tabindex="7"/>
+        </p>
+        </form>
+    </div>
 </body>
 </html>
